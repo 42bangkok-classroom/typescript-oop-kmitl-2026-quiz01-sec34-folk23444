@@ -8,4 +8,4 @@ for (const n of nums) {
   }
 }
 
-console.log(max);
+process.stdout.write(String(max));
