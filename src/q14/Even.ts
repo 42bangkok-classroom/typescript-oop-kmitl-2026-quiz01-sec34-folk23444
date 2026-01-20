@@ -1,7 +1,9 @@
-let number5 = Number(process.argv[2]);
-for (let i = 0; i <=number5 ; i++){
-if (i %2 !== 0) {
-continue
-}
-console.log(String(i))
+const n = Number(process.argv[2]);
+
+if (!isNaN(n)) {
+  for (let i = 0; i <= n; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
+  }
 }

@@ -1,4 +1,4 @@
-let color = (process.argv[2] || "").toLowerCase();
+const color = process.argv[2]?.toLowerCase();
 
 switch (color) {
   case "red":

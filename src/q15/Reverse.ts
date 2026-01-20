@@ -1,6 +1,8 @@
-let text = process.argv[2];
-let reversed = "";
-for(let i = text.length - 1; i >= 0 ; i--){
-  reversed += text[i];
+const text = process.argv[2] || "";
+let result = "";
+
+for (let i = text.length - 1; i >= 0; i--) {
+  result += text[i];
 }
-console.log(reversed);
+
+console.log(result);
